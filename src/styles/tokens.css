@@ -1,0 +1,153 @@
+/* ============================================================
+   Design tokens.
+   One layout, two complete skins: `culture` (Lingnan warm paper)
+   and `tech` (Shenzhen hardware dark). Swap via data-theme on <html>.
+   ============================================================ */
+
+:root {
+  /* Structure — shared by both themes */
+  --radius: 2px;
+  --radius-lg: 4px;
+  --maxw: 1180px;
+  --gutter: clamp(18px, 4.5vw, 48px);
+
+  --font-display: 'Cormorant Garamond', 'Songti SC', 'STSong', 'Noto Serif CJK SC',
+    'Source Han Serif SC', Georgia, serif;
+  --font-body: 'DM Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+    'Noto Sans CJK SC', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Off by default; the tech theme turns these on. */
+  --card-glow: none;
+  --page-texture: none;
+  --hairline: 1px solid var(--border);
+  --letter-kicker: 0.24em;
+  --title-weight: 500;
+  --title-transform: none;
+  --title-spacing: -0.01em;
+}
+
+/* ---------- Culture 文化 : warm paper, jade, seal red ---------- */
+[data-theme='culture'] {
+  --bg: #f4efe4;
+  --bg-alt: #ece5d6;
+  --surface: #fdfbf7;
+  --surface-2: #f8f3ea;
+  --surface-3: #efe8db;
+
+  --border: rgba(26, 22, 18, 0.12);
+  --border-strong: rgba(26, 22, 18, 0.28);
+
+  --ink: #1a1612;
+  --ink-2: #3d362e;
+  --ink-3: #6b6158;
+  --ink-4: #9c9186;
+
+  --accent: #2f5d50;
+  --accent-ink: #fdfbf7;
+  --accent-soft: #e2ece7;
+  --accent-2: #b33a2b;
+  --accent-2-soft: #f6e6e2;
+  --gold: #b8963e;
+  --star: #b8963e;
+
+  --watermark-ink: rgba(47, 93, 80, 0.09);
+  --rule: rgba(26, 22, 18, 0.16);
+
+  --shadow-sm: 0 1px 2px rgba(26, 22, 18, 0.05);
+  --shadow-md: 0 4px 18px rgba(26, 22, 18, 0.07);
+  --shadow-lg: 0 12px 40px rgba(26, 22, 18, 0.11);
+
+  --page-texture: radial-gradient(
+      circle at 12% 8%,
+      rgba(184, 150, 62, 0.055),
+      transparent 42%
+    ),
+    radial-gradient(circle at 88% 4%, rgba(179, 58, 43, 0.05), transparent 38%),
+    radial-gradient(circle at 50% 100%, rgba(47, 93, 80, 0.05), transparent 46%);
+
+  color-scheme: light;
+}
+
+/* ---------- Tech 科技 : near-black, cyan, amber ---------- */
+[data-theme='tech'] {
+  --bg: #07080a;
+  --bg-alt: #0b0d11;
+  --surface: #101319;
+  --surface-2: #151922;
+  --surface-3: #1b2029;
+
+  --border: rgba(255, 255, 255, 0.09);
+  --border-strong: rgba(45, 226, 230, 0.4);
+
+  --ink: #e9ecf1;
+  --ink-2: #c2c8d2;
+  --ink-3: #868d99;
+  --ink-4: #5b626d;
+
+  --accent: #2de2e6;
+  --accent-ink: #06171a;
+  --accent-soft: rgba(45, 226, 230, 0.13);
+  --accent-2: #ffb020;
+  --accent-2-soft: rgba(255, 176, 32, 0.13);
+  --gold: #ffb020;
+  --star: #2de2e6;
+
+  --watermark-ink: rgba(45, 226, 230, 0.075);
+  --rule: rgba(255, 255, 255, 0.14);
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 6px 24px rgba(0, 0, 0, 0.55);
+  --shadow-lg: 0 18px 60px rgba(0, 0, 0, 0.65);
+
+  --radius: 3px;
+  --card-glow: 0 0 0 1px rgba(45, 226, 230, 0.22), 0 0 32px rgba(45, 226, 230, 0.09);
+
+  /* Faint blueprint grid + horizon glow */
+  --page-texture: linear-gradient(rgba(45, 226, 230, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(45, 226, 230, 0.035) 1px, transparent 1px),
+    radial-gradient(circle at 50% -8%, rgba(45, 226, 230, 0.13), transparent 55%),
+    radial-gradient(circle at 92% 22%, rgba(255, 176, 32, 0.07), transparent 40%);
+
+  --font-display: 'Space Grotesk', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+    'Noto Sans CJK SC', system-ui, sans-serif;
+  --font-body: 'Space Grotesk', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+    'Noto Sans CJK SC', system-ui, sans-serif;
+
+  --letter-kicker: 0.3em;
+  --title-weight: 600;
+  --title-transform: none;
+  --title-spacing: -0.035em;
+
+  color-scheme: dark;
+}
+
+[data-theme='tech'] .grid-overlay {
+  background-size: 100% 44px, 44px 100%, 100% 100%, 100% 100%;
+}
+
+/* In Chinese mode lead with CJK faces so 宋体/苹方 set the tone. */
+[data-theme='culture'][data-lang='zh'] {
+  --font-display: 'Songti SC', 'STSong', 'Noto Serif CJK SC', 'Source Han Serif SC',
+    'Cormorant Garamond', Georgia, serif;
+}
+[data-theme='tech'][data-lang='zh'] {
+  --font-display: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC',
+    'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC',
+    'Space Grotesk', system-ui, sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

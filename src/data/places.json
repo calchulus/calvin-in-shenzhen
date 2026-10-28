@@ -1,0 +1,2116 @@
+[
+  {
+    "id": "chen-pengpeng",
+    "name": "Chen Pengpeng Goose",
+    "nameZh": "陈鹏鹏鹅肉饭店",
+    "category": "Chaoshan & Hakka",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": true,
+    "summary": "Chaoshan brine-poached goose (卤鹅) — the dish Shenzhen queues for.",
+    "note": "Get the goose liver and a mixed platter. Lines start around 18:00; arrive 17:30 or take a number on Dianping and walk the mall.",
+    "tags": [
+      "queue",
+      "dinner",
+      "share-table"
+    ]
+  },
+  {
+    "id": "runyuan-siji",
+    "name": "Runyuan Siji Coconut Chicken",
+    "nameZh": "润园四季椰子鸡",
+    "category": "Hotpot",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": true,
+    "summary": "Hainan coconut-water hotpot — clear, faintly sweet broth with free-range chicken.",
+    "note": "The most Shenzhen thing you can eat. Drink the broth first, before anything else goes in. Dip sauce is 沙姜 + chilli + 小青桔.",
+    "tags": [
+      "dinner",
+      "light",
+      "share-table"
+    ]
+  },
+  {
+    "id": "muwu-bbq",
+    "name": "Muwu BBQ",
+    "nameZh": "木屋烧烤",
+    "category": "BBQ & Skewers",
+    "neighborhood": "Chegongmiao",
+    "priceLevel": 2,
+    "rating": null,
+    "summary": "Skewer chain that started in Shenzhen and now covers the country.",
+    "note": "Lamb skewers, grilled chives, 烤茄子 with garlic. Cheap, loud, open late. The correct second stop after drinks.",
+    "tags": [
+      "late-night",
+      "cheap",
+      "groups"
+    ]
+  },
+  {
+    "id": "bahe-li",
+    "name": "Ba He Li Beef Hotpot",
+    "nameZh": "八合里海记牛肉店",
+    "category": "Hotpot",
+    "neighborhood": "Luohu",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": true,
+    "summary": "Chaoshan beef hotpot — a dozen cuts, each blanched for a different number of seconds.",
+    "note": "Ask for the cut-by-cut timing card or watch the table next to you. 匙柄 and 吊龙 are the ones worth the wait.",
+    "tags": [
+      "dinner",
+      "craft",
+      "queue"
+    ]
+  },
+  {
+    "id": "tao-tao-ju",
+    "name": "Tao Tao Ju",
+    "nameZh": "陶陶居",
+    "category": "Cantonese & Dim Sum",
+    "neighborhood": "Nanshan Center",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": true,
+    "summary": "Guangzhou teahouse brand, over a century old, doing all-day yum cha properly.",
+    "note": "虾饺, 流沙包, 凤爪, and the 马拉糕. Weekend brunch is a mob — go Tuesday morning instead.",
+    "tags": [
+      "dim-sum",
+      "brunch",
+      "family"
+    ]
+  },
+  {
+    "id": "lei-garden",
+    "name": "Lei Garden",
+    "nameZh": "利苑酒家",
+    "category": "Cantonese & Dim Sum",
+    "neighborhood": "Luohu",
+    "priceLevel": 4,
+    "rating": null,
+    "summary": "The Michelin-standard Cantonese benchmark; roast meats and double-boiled soups.",
+    "note": "Book ahead. The 老火汤 and the XO sauce fried rice are worth the price on their own.",
+    "tags": [
+      "occasion",
+      "book-ahead",
+      "business"
+    ]
+  },
+  {
+    "id": "fei-da-chu",
+    "name": "Fei Da Chu",
+    "nameZh": "费大厨辣椒炒肉",
+    "category": "Sichuan & Hunan",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": true,
+    "summary": "Hunan's signature dish — pork fried with fresh green chilli — done as a single obsession.",
+    "note": "Genuinely hot, not performative hot. Order rice; you will need it. Shenzhen has a huge Hunanese population and this is what they go to.",
+    "tags": [
+      "spicy",
+      "dinner",
+      "queue"
+    ]
+  },
+  {
+    "id": "nong-geng-ji",
+    "name": "Nong Geng Ji",
+    "nameZh": "农耕记",
+    "category": "Sichuan & Hunan",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 2,
+    "rating": null,
+    "summary": "Shenzhen-born Hunan country cooking; ingredients trucked in from Hunan farms.",
+    "note": "Rustic farmhouse set-up, 土菜 done seriously. Good for a group, good for introducing someone to Hunan food.",
+    "tags": [
+      "groups",
+      "spicy",
+      "dinner"
+    ]
+  },
+  {
+    "id": "tai-er",
+    "name": "Tai Er Pickled Fish",
+    "nameZh": "太二酸菜鱼",
+    "category": "Sichuan & Hunan",
+    "neighborhood": "Keyuan",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "One dish: fish in a sour-and-hot pickled-cabbage broth. No substitutions, no parties over four.",
+    "note": "The no-groups-over-four rule is real and it keeps the queue moving. Chili oil goes in at the table.",
+    "tags": [
+      "queue",
+      "spicy",
+      "quick"
+    ]
+  },
+  {
+    "id": "haidilao",
+    "name": "Haidilao",
+    "nameZh": "海底捞",
+    "category": "Hotpot",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 3,
+    "rating": null,
+    "featured": false,
+    "summary": "Sichuan hotpot plus relentless hospitality: free manicures, noodle dancing, birthday ambushes.",
+    "note": "Open till dawn at most branches. The waiting area is a free snack bar — arrive early and eat there.",
+    "tags": [
+      "late-night",
+      "groups",
+      "tourist-fun"
+    ]
+  },
+  {
+    "id": "banu",
+    "name": "Banu Tripe Hotpot",
+    "nameZh": "巴奴毛肚火锅",
+    "category": "Hotpot",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 3,
+    "rating": null,
+    "featured": false,
+    "summary": "Hotpot that markets itself on broth and tripe rather than service — the anti-Haidilao.",
+    "note": "七上八下: seven dips up, eight down. Fifteen seconds, no more.",
+    "tags": [
+      "dinner",
+      "craft"
+    ]
+  },
+  {
+    "id": "dian-dou-de",
+    "name": "Dian Dou De",
+    "nameZh": "点都德",
+    "category": "Cantonese & Dim Sum",
+    "neighborhood": "Luohu",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "All-day Cantonese tea service; trolleys, tiles, and a very traditional room.",
+    "note": "Good solo at 10:00 with a newspaper. Ask for 普洱 or 铁观音 with the meal.",
+    "tags": [
+      "dim-sum",
+      "brunch",
+      "solo-ok"
+    ]
+  },
+  {
+    "id": "jade-garden",
+    "name": "Jade Garden",
+    "nameZh": "翠园酒家",
+    "category": "Cantonese & Dim Sum",
+    "neighborhood": "Luohu",
+    "priceLevel": 3,
+    "rating": null,
+    "featured": false,
+    "summary": "Maxim's Cantonese institution — seafood tanks, banquet rooms, flawless service.",
+    "note": "Reliable for a family meal or hosting someone. The 蜜汁叉烧 is the safe showpiece.",
+    "tags": [
+      "family",
+      "occasion",
+      "reliable"
+    ]
+  },
+  {
+    "id": "guangzhou-restaurant",
+    "name": "Guangzhou Restaurant",
+    "nameZh": "广州酒家",
+    "category": "Cantonese & Dim Sum",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Another old Guangzhou name; dim sum plus roast meats at mid prices.",
+    "note": "Their mooncakes are the ones locals actually gift at Mid-Autumn.",
+    "tags": [
+      "dim-sum",
+      "family",
+      "seasonal"
+    ]
+  },
+  {
+    "id": "tao-heung",
+    "name": "Tao Heung",
+    "nameZh": "稻香",
+    "category": "Cantonese & Dim Sum",
+    "neighborhood": "Dongmen",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Hong Kong-style yum cha, large halls, fast turnover.",
+    "note": "Best value dim sum on this list. Go with four people and order broadly.",
+    "tags": [
+      "cheap",
+      "dim-sum",
+      "groups"
+    ]
+  },
+  {
+    "id": "shundegong",
+    "name": "Shundegong",
+    "nameZh": "顺德公饭店",
+    "category": "Cantonese & Dim Sum",
+    "neighborhood": "Nanshan Center",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Shunde cooking — the district Cantonese chefs come from. River fish, silky steamed eggs, double-skin milk.",
+    "note": "Order 双皮奶 for dessert. It is the reason Shunde is famous.",
+    "tags": [
+      "dinner",
+      "craft",
+      "dessert"
+    ]
+  },
+  {
+    "id": "ocean-court",
+    "name": "Ocean Court",
+    "nameZh": "唐宫海鲜舫",
+    "category": "Cantonese & Dim Sum",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 3,
+    "rating": null,
+    "featured": false,
+    "summary": "Palace-scale Cantonese seafood restaurant, built for banquets.",
+    "note": "Live tanks; you pick the fish. Price is by weight, so ask before it's cooked.",
+    "tags": [
+      "seafood",
+      "banquet",
+      "occasion"
+    ]
+  },
+  {
+    "id": "chao-shang-chao",
+    "name": "Chao Shang Chao",
+    "nameZh": "潮上潮",
+    "category": "Chaoshan & Hakka",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Chaoshan seafood and cold plates — marinated crab, raw shrimp, braised platters.",
+    "note": "The 生腌 (raw-marinated) section is a rite of passage. Strong stomachs only.",
+    "tags": [
+      "seafood",
+      "adventurous",
+      "dinner"
+    ]
+  },
+  {
+    "id": "fu-he-cheng",
+    "name": "Fu He Cheng Beef Balls",
+    "nameZh": "福合埕牛肉丸",
+    "category": "Chaoshan & Hakka",
+    "neighborhood": "Luohu",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Hand-pounded Chaoshan beef balls — the ones that actually bounce.",
+    "note": "A bowl of beef-ball noodle soup is a 25-yuan lunch that beats almost anything else at that price.",
+    "tags": [
+      "cheap",
+      "lunch",
+      "solo-ok"
+    ]
+  },
+  {
+    "id": "guantang-beef",
+    "name": "Guantang Beef Hotpot",
+    "nameZh": "官塘牛肉火锅",
+    "category": "Chaoshan & Hakka",
+    "neighborhood": "Shuiwei",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Neighbourhood Chaoshan beef hotpot, no frills, meat cut in front of you.",
+    "note": "This is what the local version looks like — plastic stools, better meat, half the price of the mall branches.",
+    "tags": [
+      "cheap",
+      "local",
+      "late-night"
+    ]
+  },
+  {
+    "id": "hakka-king",
+    "name": "Hakka King",
+    "nameZh": "客家王",
+    "category": "Chaoshan & Hakka",
+    "neighborhood": "Longgang",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Hakka staples: stuffed tofu, salt-baked chicken, braised pork with preserved vegetables.",
+    "note": "深圳's eastern districts are Hakka country. 盐焗鸡 arrives whole and is best eaten with your hands.",
+    "tags": [
+      "family",
+      "regional",
+      "dinner"
+    ]
+  },
+  {
+    "id": "hakka-language",
+    "name": "Hakka Language",
+    "nameZh": "客语",
+    "category": "Chaoshan & Hakka",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Modern, mall-based take on Hakka cooking — cleaner room, same dishes.",
+    "note": "Easier entry point to Hakka food than the village restaurants, and consistent.",
+    "tags": [
+      "reliable",
+      "family",
+      "mall"
+    ]
+  },
+  {
+    "id": "guangming-squab",
+    "name": "Guangming Squab",
+    "nameZh": "光明乳鸽",
+    "category": "Chaoshan & Hakka",
+    "neighborhood": "Guangming",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": true,
+    "summary": "Roast squab from Guangming's state dairy farm — Shenzhen's own famous local dish.",
+    "note": "Worth the 40-minute trip north. Eat it at the source in 光明, with the farm's dairy desserts after. Crisp skin, eaten whole.",
+    "tags": [
+      "day-trip",
+      "local-specialty",
+      "regional"
+    ]
+  },
+  {
+    "id": "shajing-oysters",
+    "name": "Shajing Oysters",
+    "nameZh": "沙井蚝",
+    "category": "Chaoshan & Hakka",
+    "neighborhood": "Shajing",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Oysters from Shenzhen's western coast — grilled, dried, or in congee. Season runs roughly Nov–Mar.",
+    "note": "Dried Shajing oysters are the traditional gift. Go in winter; in summer skip it.",
+    "tags": [
+      "seasonal",
+      "day-trip",
+      "seafood"
+    ]
+  },
+  {
+    "id": "chaoshan-congee",
+    "name": "Chaoshan Seafood Congee",
+    "nameZh": "潮汕砂锅粥",
+    "category": "Chaoshan & Hakka",
+    "neighborhood": "Chegongmiao",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Clay-pot congee cooked to order with live shrimp and crab. The standard Shenzhen 夜宵.",
+    "note": "Order it at 23:00 after drinks. It takes 30 minutes — that's the point.",
+    "tags": [
+      "late-night",
+      "seafood",
+      "groups"
+    ]
+  },
+  {
+    "id": "peijie",
+    "name": "Peijie Old Hotpot",
+    "nameZh": "珮姐老火锅",
+    "category": "Hotpot",
+    "neighborhood": "Nanshan Center",
+    "priceLevel": 3,
+    "rating": null,
+    "featured": false,
+    "summary": "Chongqing-style beef-tallow hotpot, numbing and deeply savoury.",
+    "note": "The 九宫格 grid is functional, not decorative — different cells are different temperatures.",
+    "tags": [
+      "spicy",
+      "dinner",
+      "queue"
+    ]
+  },
+  {
+    "id": "chen-xianggui",
+    "name": "Chen Xianggui",
+    "nameZh": "陈香贵",
+    "category": "Noodles & Dumplings",
+    "neighborhood": "Keyuan",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Lanzhou hand-pulled beef noodles, made in front of you.",
+    "note": "Specify noodle width: 毛细 is hair-thin, 大宽 is belt-wide. Free soup refill.",
+    "tags": [
+      "cheap",
+      "lunch",
+      "quick",
+      "solo-ok"
+    ]
+  },
+  {
+    "id": "ma-jiyong",
+    "name": "Ma Jiyong",
+    "nameZh": "马记永",
+    "category": "Noodles & Dumplings",
+    "neighborhood": "Houhai",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "The other Lanzhou noodle chain — cleaner rooms, slightly richer broth.",
+    "note": "Solid 30-yuan lunch anywhere in the city. Add the 卤蛋 and the lamb skewers.",
+    "tags": [
+      "cheap",
+      "lunch",
+      "quick"
+    ]
+  },
+  {
+    "id": "yin-ji",
+    "name": "Yin Ji Rice Rolls",
+    "nameZh": "银记肠粉",
+    "category": "Noodles & Dumplings",
+    "neighborhood": "Dongmen",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Cantonese 肠粉 — steamed rice sheets with shrimp, beef, or egg.",
+    "note": "Breakfast food. The sweet soy poured at the table is what makes it.",
+    "tags": [
+      "breakfast",
+      "cheap",
+      "solo-ok"
+    ]
+  },
+  {
+    "id": "yu-jian-xiao-mian",
+    "name": "Yu Jian Xiao Mian",
+    "nameZh": "遇见小面",
+    "category": "Noodles & Dumplings",
+    "neighborhood": "Huaqiangbei",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Chongqing street noodles — chilli oil, preserved vegetables, minced pork.",
+    "note": "Order 干溜 (dry, no soup) if you want the sauce to actually coat the noodle.",
+    "tags": [
+      "spicy",
+      "cheap",
+      "quick"
+    ]
+  },
+  {
+    "id": "xi-jia-de",
+    "name": "Xi Jia De",
+    "nameZh": "喜家德虾仁水饺",
+    "category": "Noodles & Dumplings",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Northern dumplings, whole shrimp in each one, boiled to order.",
+    "note": "Eat them with black vinegar and raw garlic the way the shop intends.",
+    "tags": [
+      "lunch",
+      "reliable",
+      "solo-ok"
+    ]
+  },
+  {
+    "id": "hefu",
+    "name": "Hefu Noodles",
+    "nameZh": "和府捞面",
+    "category": "Noodles & Dumplings",
+    "neighborhood": "Keyuan",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Noodle chain styled like a scholar's study — quiet, air-conditioned, book-lined.",
+    "note": "The room is the reason to go. Free noodle refill for lunch-sized appetites.",
+    "tags": [
+      "lunch",
+      "quiet",
+      "solo-ok"
+    ]
+  },
+  {
+    "id": "xin-rong-ji",
+    "name": "Xin Rong Ji",
+    "nameZh": "新荣记",
+    "category": "Fine Dining",
+    "neighborhood": "Houhai",
+    "priceLevel": 4,
+    "rating": null,
+    "featured": true,
+    "summary": "Taizhou seafood cooking, the most decorated restaurant group in China.",
+    "note": "The 家烧黄鱼 is the dish. Book a week out and let them build the menu.",
+    "tags": [
+      "occasion",
+      "book-ahead",
+      "seafood"
+    ]
+  },
+  {
+    "id": "da-dong",
+    "name": "Da Dong",
+    "nameZh": "大董",
+    "category": "Fine Dining",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 4,
+    "rating": null,
+    "featured": false,
+    "summary": "Beijing roast duck, carved tableside, with the full pancake-and-condiment ceremony.",
+    "note": "Order the whole bird for two; the leftovers become a second course.",
+    "tags": [
+      "occasion",
+      "book-ahead",
+      "tourist-fun"
+    ]
+  },
+  {
+    "id": "yong-fu",
+    "name": "Yong Fu",
+    "nameZh": "甬府",
+    "category": "Fine Dining",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 4,
+    "rating": null,
+    "featured": false,
+    "summary": "Ningbo cuisine — cured and fermented seafood, quietly intense.",
+    "note": "The 醉蟹 (drunken crab) is the reason this kitchen exists.",
+    "tags": [
+      "occasion",
+      "adventurous",
+      "book-ahead"
+    ]
+  },
+  {
+    "id": "da-shu-wu-jie",
+    "name": "Da Shu Wu Jie",
+    "nameZh": "大蔬无界",
+    "category": "Fine Dining",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 4,
+    "rating": null,
+    "featured": false,
+    "summary": "High-end vegetarian tasting menu built to look and taste like meat.",
+    "note": "Genuinely interesting even if you eat meat. Book the full course, not à la carte.",
+    "tags": [
+      "vegetarian",
+      "occasion",
+      "tasting-menu"
+    ]
+  },
+  {
+    "id": "st-regis-high-tea",
+    "name": "The St. Regis Shenzhen",
+    "nameZh": "深圳瑞吉酒店",
+    "category": "Fine Dining",
+    "neighborhood": "KK100",
+    "priceLevel": 4,
+    "rating": null,
+    "featured": false,
+    "summary": "Hotel dining on the upper floors of KK100 — the highest restaurant tables in the city.",
+    "note": "Go for afternoon tea and the view over Luohu, not for the food alone.",
+    "tags": [
+      "view",
+      "occasion",
+      "afternoon-tea"
+    ]
+  },
+  {
+    "id": "park-hyatt",
+    "name": "Park Hyatt Shenzhen",
+    "nameZh": "深圳柏悦酒店",
+    "category": "Fine Dining",
+    "neighborhood": "Houhai",
+    "priceLevel": 4,
+    "rating": null,
+    "featured": false,
+    "summary": "Post-hou Bay tower with several strong restaurants and the best bar view in Nanshan.",
+    "note": "The lobby lounge at sunset, facing Shenzhen Bay, is free if you only buy a drink.",
+    "tags": [
+      "view",
+      "sunset",
+      "bar"
+    ]
+  },
+  {
+    "id": "pasta-la-vista",
+    "name": "Pasta la Vista",
+    "nameZh": "Pasta la Vista",
+    "category": "International",
+    "neighborhood": "Shekou",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Long-running Shekou Italian, the anchor of the expat dinner scene.",
+    "note": "One of the few places in Shenzhen that has been serving the same Western food well for years.",
+    "tags": [
+      "western",
+      "dinner",
+      "expat",
+      "needsCheck"
+    ]
+  },
+  {
+    "id": "graftons",
+    "name": "Grafton's Irish Pub",
+    "nameZh": "Grafton's",
+    "category": "Bars & Nightlife",
+    "neighborhood": "Shekou",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Irish pub in Shekou — live sport, Guinness, and the city's oldest expat crowd.",
+    "note": "Best place in Shenzhen to watch a 3am Premier League match with people who also care.",
+    "tags": [
+      "sport",
+      "expat",
+      "late-night",
+      "needsCheck"
+    ]
+  },
+  {
+    "id": "blue-frog",
+    "name": "Blue Frog",
+    "nameZh": "蓝蛙",
+    "category": "International",
+    "neighborhood": "Sea World",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Western chain — burgers, all-day breakfast, reliable and air-conditioned.",
+    "note": "Not interesting, but it is the known quantity when you want an English menu and a coffee that isn't a project.",
+    "tags": [
+      "western",
+      "reliable",
+      "brunch",
+      "needsCheck"
+    ]
+  },
+  {
+    "id": "wagas",
+    "name": "Wagas",
+    "nameZh": "Wagas",
+    "category": "Brunch & Casual",
+    "neighborhood": "Houhai",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Healthy-casual chain: grain bowls, wraps, decent coffee.",
+    "note": "Fine for a laptop lunch. Every mall has one, which is the appeal.",
+    "tags": [
+      "healthy",
+      "lunch",
+      "laptop",
+      "needsCheck"
+    ]
+  },
+  {
+    "id": "gaga",
+    "name": "gaga",
+    "nameZh": "gaga鲜语",
+    "category": "Brunch & Casual",
+    "neighborhood": "OCT",
+    "priceLevel": 2,
+    "rating": null,
+    "summary": "Shenzhen-born all-day brunch and tea chain — the city's own answer to a café-restaurant.",
+    "note": "Local brand, so worth supporting. The fruit teas are the signature and they are enormous.",
+    "tags": [
+      "brunch",
+      "local-brand",
+      "groups"
+    ]
+  },
+  {
+    "id": "ippudo",
+    "name": "Ippudo",
+    "nameZh": "一风堂",
+    "category": "Japanese & Korean",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Hakata tonkotsu ramen, the Fukuoka original.",
+    "note": "Ask for 硬め (katame) for firmer noodles. Free 辛子高菜 on the counter.",
+    "tags": [
+      "lunch",
+      "quick",
+      "solo-ok",
+      "needsCheck"
+    ]
+  },
+  {
+    "id": "korean-bbq-luohu",
+    "name": "Korean BBQ Street",
+    "nameZh": "韩国烤肉街",
+    "category": "Japanese & Korean",
+    "neighborhood": "Luohu",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Concentration of Korean restaurants around Luohu, serving the large local Korean community.",
+    "note": "Look for the places full of Korean speakers — that's the filter, ignore the signage.",
+    "tags": [
+      "groups",
+      "dinner",
+      "late-night",
+      "needsCheck"
+    ]
+  },
+  {
+    "id": "arabica",
+    "name": "% Arabica",
+    "nameZh": "% Arabica",
+    "category": "Cafes",
+    "neighborhood": "Houhai",
+    "priceLevel": 3,
+    "rating": null,
+    "summary": "Kyoto's minimal white-box coffee, with a Shenzhen Bay branch facing the water.",
+    "note": "Go for the terrace and the Spanish latte. Queue is worst on weekend afternoons.",
+    "tags": [
+      "coffee",
+      "view",
+      "instagram",
+      "needsCheck"
+    ]
+  },
+  {
+    "id": "gee-coffee",
+    "name": "Gee Coffee",
+    "nameZh": "极客咖啡",
+    "category": "Cafes",
+    "neighborhood": "OCT-LOFT",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "One of the earliest specialty roasters in Shenzhen, in the creative park.",
+    "note": "Single-origin pour-over, and a room full of designers. Good place to sit for two hours.",
+    "tags": [
+      "coffee",
+      "laptop",
+      "specialty",
+      "needsCheck"
+    ]
+  },
+  {
+    "id": "seesaw",
+    "name": "Seesaw Coffee",
+    "nameZh": "Seesaw",
+    "category": "Cafes",
+    "neighborhood": "Keyuan",
+    "priceLevel": 3,
+    "rating": null,
+    "featured": false,
+    "summary": "Shanghai-born specialty chain; clean rooms, strong espresso programme.",
+    "note": "Reliable flat white anywhere in the city. Tech-crowd default in Keyuan.",
+    "tags": [
+      "coffee",
+      "laptop",
+      "reliable"
+    ]
+  },
+  {
+    "id": "manner",
+    "name": "Manner Coffee",
+    "nameZh": "Manner",
+    "category": "Cafes",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Tiny kiosk coffee at genuinely low prices — the daily-driver option.",
+    "note": "Bring your own cup for a discount. 15 yuan for a proper flat white is the best value in the city.",
+    "tags": [
+      "coffee",
+      "cheap",
+      "quick"
+    ]
+  },
+  {
+    "id": "m-stand",
+    "name": "M Stand",
+    "nameZh": "M Stand",
+    "category": "Cafes",
+    "neighborhood": "Nanshan Center",
+    "priceLevel": 3,
+    "rating": null,
+    "featured": false,
+    "summary": "Design-led coffee chain; industrial rooms, oat-milk-focused menu.",
+    "note": "The 燕麦曲奇拿铁 is the drink people order. Rooms are good for meetings.",
+    "tags": [
+      "coffee",
+      "laptop",
+      "design",
+      "needsCheck"
+    ]
+  },
+  {
+    "id": "oct-loft-cafes",
+    "name": "OCT-LOFT Cafe Row",
+    "nameZh": "华侨城创意园咖啡街",
+    "category": "Cafes",
+    "neighborhood": "OCT-LOFT",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": true,
+    "summary": "A whole block of independent cafes in the converted factory park.",
+    "note": "Come on a weekday afternoon, wander between three or four, and look at the galleries in between. This is the best aimless day in Shenzhen.",
+    "tags": [
+      "coffee",
+      "wander",
+      "design",
+      "weekday"
+    ]
+  },
+  {
+    "id": "nantou-cafes",
+    "name": "Nantou Ancient City Cafes",
+    "nameZh": "南头古城咖啡",
+    "category": "Cafes",
+    "neighborhood": "Nantou",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Independent cafes tucked into a restored 1,700-year-old walled town.",
+    "note": "Old village fabric, young tenants. The lanes are worth more than the coffee.",
+    "tags": [
+      "coffee",
+      "wander",
+      "historic"
+    ]
+  },
+  {
+    "id": "heytea-lab",
+    "name": "HEYTEA Lab",
+    "nameZh": "喜茶 LAB",
+    "category": "Tea & Sweets",
+    "neighborhood": "Houhai",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": true,
+    "summary": "The flagship format of the cheese-foam tea brand that Shenzhen turned into a global chain.",
+    "note": "Order via the mini-program, never in the queue. 多肉葡萄 in summer, 芝芝莓莓 year-round.",
+    "tags": [
+      "tea",
+      "local-brand",
+      "quick"
+    ]
+  },
+  {
+    "id": "nayuki",
+    "name": "Nayuki",
+    "nameZh": "奈雪的茶",
+    "category": "Tea & Sweets",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 2,
+    "rating": null,
+    "summary": "Fruit tea and soft European bread — founded in Shenzhen, now listed on the HKEX.",
+    "note": "The big flagship stores have seating and bread, which makes them an actual café rather than a kiosk. Born here, so it counts as local.",
+    "tags": [
+      "tea",
+      "local-brand",
+      "bakery"
+    ]
+  },
+  {
+    "id": "chagee",
+    "name": "Chagee",
+    "nameZh": "霸王茶姬",
+    "category": "Tea & Sweets",
+    "neighborhood": "Keyuan",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Milk tea built on a real brewed tea base rather than powder.",
+    "note": "伯牙绝弦 is the order. Lighter and less sweet than the fruit-tea places.",
+    "tags": [
+      "tea",
+      "cheap",
+      "quick"
+    ]
+  },
+  {
+    "id": "mixue",
+    "name": "Mixue Bingcheng",
+    "nameZh": "蜜雪冰城",
+    "category": "Tea & Sweets",
+    "neighborhood": "Huaqiangbei",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Four-yuan ice cream, six-yuan lemonade. The largest tea chain on earth.",
+    "note": "It is not good. It is four yuan. Both facts matter.",
+    "tags": [
+      "cheap",
+      "quick",
+      "summer"
+    ]
+  },
+  {
+    "id": "bao-shifu",
+    "name": "Bao Shifu",
+    "nameZh": "鲍师傅",
+    "category": "Tea & Sweets",
+    "neighborhood": "Dongmen",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Meat-floss cream buns (肉松小贝) — the snack with a permanent queue.",
+    "note": "Buy one box, eat them the same day. The queue moves faster than it looks.",
+    "tags": [
+      "cheap",
+      "snack",
+      "queue"
+    ]
+  },
+  {
+    "id": "holiland",
+    "name": "Holiland",
+    "nameZh": "好利来",
+    "category": "Tea & Sweets",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "National bakery chain with an unexpectedly strong collab programme.",
+    "note": "Their seasonal and character collaborations sell out in hours. Check the mini-program.",
+    "tags": [
+      "bakery",
+      "snack",
+      "seasonal"
+    ]
+  },
+  {
+    "id": "lu-xi-he",
+    "name": "Lu Xi He",
+    "nameZh": "泸溪河",
+    "category": "Tea & Sweets",
+    "neighborhood": "Nanshan Center",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Traditional Chinese pastry shop — 桃酥, egg yolk pastries, sold by weight.",
+    "note": "Buy a mixed half-kilo by weight. This is the correct gift to bring to someone's parents.",
+    "tags": [
+      "bakery",
+      "cheap",
+      "gift"
+    ]
+  },
+  {
+    "id": "paul-bakery",
+    "name": "Paul",
+    "nameZh": "Paul 法国烘焙",
+    "category": "Tea & Sweets",
+    "neighborhood": "Luohu",
+    "priceLevel": 3,
+    "rating": null,
+    "featured": false,
+    "summary": "French bakery chain; proper croissants and baguettes.",
+    "note": "When you need real butter and real bread, this is the dependable option.",
+    "tags": [
+      "bakery",
+      "breakfast",
+      "western",
+      "needsCheck"
+    ]
+  },
+  {
+    "id": "coco-park-bar-street",
+    "name": "Coco Park Bar Street",
+    "nameZh": "购物公园酒吧街",
+    "category": "Bars & Nightlife",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 3,
+    "rating": null,
+    "featured": true,
+    "summary": "Futian's open-air nightlife strip — a dense row of bars around the sunken shopping park.",
+    "note": "This is where Shenzhen goes out. Starts slow at 21:00, peaks past midnight, and it's outdoors so it works most of the year.",
+    "tags": [
+      "late-night",
+      "groups",
+      "outdoor"
+    ]
+  },
+  {
+    "id": "sea-world-bar-street",
+    "name": "Sea World Bar Street",
+    "nameZh": "海上世界酒吧街",
+    "category": "Bars & Nightlife",
+    "neighborhood": "Sea World",
+    "priceLevel": 3,
+    "rating": null,
+    "featured": true,
+    "summary": "Bars and restaurants wrapped around the grounded Minghua cruise ship in Shekou.",
+    "note": "More expat, more relaxed, better for a first date than Coco Park. Musical fountain at 20:00 and 21:00.",
+    "tags": [
+      "date",
+      "expat",
+      "outdoor",
+      "waterfront"
+    ]
+  },
+  {
+    "id": "oct-harbour-bars",
+    "name": "OCT Harbour Waterfront",
+    "nameZh": "欢乐海岸水岸酒吧",
+    "category": "Bars & Nightlife",
+    "neighborhood": "OCT",
+    "priceLevel": 3,
+    "rating": null,
+    "featured": false,
+    "summary": "Canal-side bars and restaurants with a nightly water show.",
+    "note": "Touristy but the setting is genuinely nice. Walk the canal loop after dinner.",
+    "tags": [
+      "waterfront",
+      "date",
+      "tourist-fun"
+    ]
+  },
+  {
+    "id": "craftissimo",
+    "name": "Craftissimo",
+    "nameZh": "Craftissimo 精酿",
+    "category": "Bars & Nightlife",
+    "neighborhood": "Shekou",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Craft beer taproom in Shekou.",
+    "note": "Shenzhen has a real craft scene now; this is one of the established rooms.",
+    "tags": [
+      "beer",
+      "expat",
+      "casual",
+      "needsCheck"
+    ]
+  },
+  {
+    "id": "rooftop-futian",
+    "name": "Rooftop Bars, Futian",
+    "nameZh": "福田高空酒吧",
+    "category": "Bars & Nightlife",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 4,
+    "rating": null,
+    "featured": false,
+    "summary": "High-floor cocktail bars across the Futian CBD towers.",
+    "note": "Go at 18:30 to catch the skyline at both daylight and lit-up. Cover charges apply on weekends.",
+    "tags": [
+      "view",
+      "cocktails",
+      "date",
+      "needsCheck"
+    ]
+  },
+  {
+    "id": "b10-live",
+    "name": "B10 Live",
+    "nameZh": "B10 现场",
+    "category": "Books & Music",
+    "neighborhood": "OCT-LOFT",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": true,
+    "summary": "Shenzhen's best-known livehouse, in the OCT-LOFT creative park.",
+    "note": "Check the schedule — indie, rock, and jazz most nights. Standing room, cheap tickets, real sound.",
+    "tags": [
+      "music",
+      "late-night",
+      "culture"
+    ]
+  },
+  {
+    "id": "shuiwei-village",
+    "name": "Shuiwei Village",
+    "nameZh": "水围村",
+    "category": "Food Streets & Markets",
+    "neighborhood": "Shuiwei",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": true,
+    "summary": "Dense urban-village food grid in Futian — cheap, late, and local.",
+    "note": "The best 50-yuan dinner in the city. Walk the lanes, pick whichever place is full of people in work clothes.",
+    "tags": [
+      "cheap",
+      "late-night",
+      "local",
+      "wander"
+    ]
+  },
+  {
+    "id": "chegongmiao-street",
+    "name": "Chegongmiao Food Street",
+    "nameZh": "车公庙美食街",
+    "category": "Food Streets & Markets",
+    "neighborhood": "Chegongmiao",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "After-work eating and drinking strip serving the Futian office towers.",
+    "note": "Busy 18:00–21:00, quiet after. Good for a casual group dinner near the metro.",
+    "tags": [
+      "dinner",
+      "groups",
+      "late-night"
+    ]
+  },
+  {
+    "id": "futian-wholesale",
+    "name": "Futian Agricultural Wholesale Market",
+    "nameZh": "福田农批市场",
+    "category": "Food Streets & Markets",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Working wholesale market — fruit, seafood, dried goods, at trade prices.",
+    "note": "Go early morning. This is where you buy lychee in June and dried scallops for the year.",
+    "tags": [
+      "market",
+      "morning",
+      "cheap",
+      "local"
+    ]
+  },
+  {
+    "id": "dongmen",
+    "name": "Dongmen Old Street",
+    "nameZh": "东门老街",
+    "category": "Food Streets & Markets",
+    "neighborhood": "Dongmen",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Chaotic pedestrian shopping and street-food district — Shenzhen's oldest commercial core.",
+    "note": "Overwhelming and completely worth one visit. Watch your pockets; eat the grilled squid.",
+    "tags": [
+      "cheap",
+      "street-food",
+      "tourist-fun",
+      "crowded"
+    ]
+  },
+  {
+    "id": "huaqiangbei",
+    "name": "Huaqiangbei Electronics Market",
+    "nameZh": "华强北电子市场",
+    "category": "Neighborhoods & Villages",
+    "neighborhood": "Huaqiangbei",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": true,
+    "summary": "The world's largest electronics market — ten floors of components, phones, and drones.",
+    "note": "Not a food destination, but it is the single most Shenzhen thing a visitor can do. Go in the afternoon, bring cash, expect to be talked at.",
+    "tags": [
+      "tech",
+      "shopping",
+      "wander",
+      "must-do"
+    ]
+  },
+  {
+    "id": "shenzhen-bay-park",
+    "name": "Shenzhen Bay Park",
+    "nameZh": "深圳湾公园",
+    "category": "Parks & Waterfront",
+    "neighborhood": "Houhai",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": true,
+    "summary": "Thirteen kilometres of waterfront path facing Hong Kong across the bay.",
+    "note": "Rent a bike and ride south at 17:30 for the sunset. Migratory birds on the mudflats in winter — bring binoculars if you care.",
+    "tags": [
+      "sunset",
+      "cycling",
+      "free",
+      "winter-birds"
+    ]
+  },
+  {
+    "id": "talent-park",
+    "name": "Shenzhen Talent Park",
+    "nameZh": "深圳人才公园",
+    "category": "Parks & Waterfront",
+    "neighborhood": "Houhai",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": true,
+    "summary": "Small waterfront park in Houhai, framed by the tech-district towers.",
+    "note": "Best night skyline in the city — the towers light up and reflect in the water. Free, open late, ten minutes from the metro.",
+    "tags": [
+      "night",
+      "skyline",
+      "free",
+      "photo"
+    ]
+  },
+  {
+    "id": "lianhua-shan",
+    "name": "Lianhuashan Park",
+    "nameZh": "莲花山公园",
+    "category": "Parks & Waterfront",
+    "neighborhood": "Lianhuashan",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": true,
+    "summary": "Central hill park with the Deng Xiaoping statue and a kite-flying lawn.",
+    "note": "Twenty-minute climb to the viewing platform for the full Futian CBD axis. Go at dusk; the light show starts after dark.",
+    "tags": [
+      "view",
+      "free",
+      "hike",
+      "skyline"
+    ]
+  },
+  {
+    "id": "bijiashan",
+    "name": "Bijiashan Park",
+    "nameZh": "笔架山公园",
+    "category": "Parks & Waterfront",
+    "neighborhood": "Lianhuashan",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Quieter hill park next to Lianhuashan, with a good elevated walkway.",
+    "note": "Less crowded than Lianhuashan and the views are nearly as good. The skywalk connecting to the north is worth doing.",
+    "tags": [
+      "free",
+      "hike",
+      "quiet"
+    ]
+  },
+  {
+    "id": "shenzhen-central-park",
+    "name": "Shenzhen Central Park",
+    "nameZh": "深圳中心公园",
+    "category": "Parks & Waterfront",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Long green corridor running north-south through the middle of Futian.",
+    "note": "Useful as a walking route rather than a destination — you can cross the district without touching a road.",
+    "tags": [
+      "free",
+      "walking",
+      "green"
+    ]
+  },
+  {
+    "id": "dasha-river",
+    "name": "Dasha River Greenway",
+    "nameZh": "大沙河生态长廊",
+    "category": "Parks & Waterfront",
+    "neighborhood": "Keyuan",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Restored river corridor with a continuous running and cycling path.",
+    "note": "The best run in Shenzhen — flat, shaded, and it goes from the university down to the bay.",
+    "tags": [
+      "running",
+      "cycling",
+      "free",
+      "green"
+    ]
+  },
+  {
+    "id": "xiangmi-park",
+    "name": "Xiangmi Park",
+    "nameZh": "香蜜公园",
+    "category": "Parks & Waterfront",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Futian's rose garden and lake park, next to the marriage registry.",
+    "note": "Roses peak in spring. There is a book bar by the lake that's a genuine find.",
+    "tags": [
+      "free",
+      "spring",
+      "quiet"
+    ]
+  },
+  {
+    "id": "qianhai-stone-park",
+    "name": "Qianhai Stone Park",
+    "nameZh": "前海石公园",
+    "category": "Parks & Waterfront",
+    "neighborhood": "Qianhai",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Waterfront park in the new Qianhai financial district, with a large stone monument.",
+    "note": "New, uncrowded, and the skyline across the water is still filling in — worth seeing now before it's finished.",
+    "tags": [
+      "free",
+      "waterfront",
+      "new"
+    ]
+  },
+  {
+    "id": "fairy-lake",
+    "name": "Fairy Lake Botanical Garden",
+    "nameZh": "仙湖植物园",
+    "category": "Parks & Waterfront",
+    "neighborhood": "Luohu",
+    "priceLevel": 1,
+    "rating": null,
+    "summary": "Large botanical garden in the eastern hills, with Hongfa Temple inside it.",
+    "note": "A full day. The temple is active and busy on weekends; the desert-plant and fern houses are the highlights.",
+    "tags": [
+      "garden",
+      "temple",
+      "day-trip",
+      "hike"
+    ]
+  },
+  {
+    "id": "mocap",
+    "name": "MOCAPE — Museum of Contemporary Art & Planning",
+    "nameZh": "深圳市当代艺术与城市规划馆",
+    "category": "Museums & Galleries",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": true,
+    "summary": "Two museums in one sculpted silver building by Coop Himmelb(l)au.",
+    "note": "The architecture is the exhibit. Free, but book entry on WeChat in advance — it caps daily visitors.",
+    "tags": [
+      "free",
+      "architecture",
+      "art",
+      "book-ahead"
+    ]
+  },
+  {
+    "id": "swcacc",
+    "name": "Sea World Culture & Arts Center",
+    "nameZh": "海上世界文化艺术中心",
+    "category": "Museums & Galleries",
+    "neighborhood": "Sea World",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": true,
+    "summary": "Fumihiko Maki's waterfront museum, home to Design Society's V&A partnership.",
+    "note": "Best building in Shenzhen. The design exhibitions are strong and the roof terrace faces the sea. Combine with the bar street next door.",
+    "tags": [
+      "art",
+      "design",
+      "architecture",
+      "waterfront"
+    ]
+  },
+  {
+    "id": "shenzhen-museum",
+    "name": "Shenzhen Museum",
+    "nameZh": "深圳博物馆",
+    "category": "Museums & Galleries",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Free city museum — the modern-Shenzhen galleries tell the fishing-village-to-megacity story properly.",
+    "note": "Do the contemporary history floor, not the antiquities. It's the one that explains the city you're standing in.",
+    "tags": [
+      "free",
+      "history",
+      "quiet"
+    ]
+  },
+  {
+    "id": "he-xiangning",
+    "name": "He Xiangning Art Museum",
+    "nameZh": "何香凝美术馆",
+    "category": "Museums & Galleries",
+    "neighborhood": "OCT",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "China's first museum named for a female artist, in OCT.",
+    "note": "Small, free, and usually quiet. Good contemporary shows.",
+    "tags": [
+      "free",
+      "art",
+      "quiet"
+    ]
+  },
+  {
+    "id": "oct-contemporary",
+    "name": "OCAT Contemporary Art Terminal",
+    "nameZh": "华·美术馆",
+    "category": "Museums & Galleries",
+    "neighborhood": "OCT",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Design and contemporary art space inside the OCT cultural cluster.",
+    "note": "Part of the OCT gallery circuit — He Xiangning, OCAT, and the park are all a short walk apart.",
+    "tags": [
+      "free",
+      "art",
+      "design"
+    ]
+  },
+  {
+    "id": "pingshan-art",
+    "name": "Pingshan Art Museum",
+    "nameZh": "坪山美术馆",
+    "category": "Museums & Galleries",
+    "neighborhood": "Pingshan",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Serious contemporary art museum out in the far east, with ambitious curatorial programmes.",
+    "note": "An hour from Futian, and worth it when the show is good. Check what's on before committing to the trip.",
+    "tags": [
+      "art",
+      "day-trip",
+      "free"
+    ]
+  },
+  {
+    "id": "guanlan-printmaking",
+    "name": "Guanlan Printmaking Village",
+    "nameZh": "观澜版画村",
+    "category": "Museums & Galleries",
+    "neighborhood": "Guanlan",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Hakka village converted into an international printmaking base, with resident artists.",
+    "note": "Old village architecture, working studios, very quiet on weekdays. Bring water — there's little to buy.",
+    "tags": [
+      "art",
+      "day-trip",
+      "historic",
+      "quiet"
+    ]
+  },
+  {
+    "id": "pingan-freeskycity",
+    "name": "FreeSky Observation Deck",
+    "nameZh": "平安金融中心云际观光",
+    "category": "Architecture & Views",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 3,
+    "rating": null,
+    "featured": true,
+    "summary": "Observation deck on the 115th floor of the Ping An Finance Centre — 541 m, the tallest in Shenzhen.",
+    "note": "Book the late-afternoon slot so you get day, sunset, and the lights in one ticket.",
+    "tags": [
+      "view",
+      "skyline",
+      "photo",
+      "ticketed"
+    ]
+  },
+  {
+    "id": "kk100",
+    "name": "KK100 Tower",
+    "nameZh": "京基100",
+    "category": "Architecture & Views",
+    "neighborhood": "KK100",
+    "priceLevel": 3,
+    "rating": null,
+    "featured": false,
+    "summary": "Luohu's 442 m landmark, with hotel dining and bar floors near the top.",
+    "note": "Better than the observation deck if you want a drink with the view rather than a ticket queue.",
+    "tags": [
+      "view",
+      "bar",
+      "skyline"
+    ]
+  },
+  {
+    "id": "diwang",
+    "name": "Shun Hing Square",
+    "nameZh": "地王大厦",
+    "category": "Architecture & Views",
+    "neighborhood": "Luohu",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "The 1996 tower that was once Asia's tallest — still the symbol of old Shenzhen.",
+    "note": "Worth looking at from the street even if you don't go up. It's the city's first skyscraper era in one object.",
+    "tags": [
+      "architecture",
+      "historic",
+      "view"
+    ]
+  },
+  {
+    "id": "concert-hall",
+    "name": "Shenzhen Concert Hall & Library",
+    "nameZh": "深圳音乐厅·图书馆",
+    "category": "Architecture & Views",
+    "neighborhood": "Lianhuashan",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Twin Arata Isozaki buildings flanking the civic centre plaza.",
+    "note": "The library's south wall of glass facing Lianhuashan is the reading room view to beat. Free to walk in.",
+    "tags": [
+      "architecture",
+      "free",
+      "quiet"
+    ]
+  },
+  {
+    "id": "civic-centre",
+    "name": "Shenzhen Civic Centre",
+    "nameZh": "深圳市民中心",
+    "category": "Architecture & Views",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "The winged civic roof and the huge plaza at the centre of Futian.",
+    "note": "Come at night for the coordinated building light show across the CBD skyline.",
+    "tags": [
+      "free",
+      "night",
+      "skyline",
+      "architecture"
+    ]
+  },
+  {
+    "id": "spring-cocoon",
+    "name": "Shenzhen Bay Sports Centre",
+    "nameZh": "深圳湾体育中心（春茧）",
+    "category": "Architecture & Views",
+    "neighborhood": "Houhai",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "The 'Spring Cocoon' stadium, wrapped in a steel lattice shell.",
+    "note": "Best seen from the Talent Park side at night, when the lattice is lit.",
+    "tags": [
+      "architecture",
+      "free",
+      "night",
+      "photo"
+    ]
+  },
+  {
+    "id": "oct-loft",
+    "name": "OCT-LOFT Creative Park",
+    "nameZh": "华侨城创意文化园",
+    "category": "Neighborhoods & Villages",
+    "neighborhood": "OCT-LOFT",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": true,
+    "summary": "Former electronics factories turned into galleries, studios, cafes, and B10 livehouse.",
+    "note": "The best half-day in Shenzhen. Wander, drink coffee, see a show at night. Weekday mornings are the quiet version.",
+    "tags": [
+      "design",
+      "wander",
+      "free",
+      "culture"
+    ]
+  },
+  {
+    "id": "nantou-ancient-city",
+    "name": "Nantou Ancient City",
+    "nameZh": "南头古城",
+    "category": "Neighborhoods & Villages",
+    "neighborhood": "Nantou",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": true,
+    "summary": "A 1,700-year-old walled town, carefully regenerated into a design and retail district.",
+    "note": "Proof that Shenzhen is older than its reputation. The city-gate wall, the lanes, and the small museums are all free.",
+    "tags": [
+      "historic",
+      "design",
+      "wander",
+      "free"
+    ]
+  },
+  {
+    "id": "dafen",
+    "name": "Dafen Oil Painting Village",
+    "nameZh": "大芬油画村",
+    "category": "Neighborhoods & Villages",
+    "neighborhood": "Buji",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": true,
+    "summary": "The village that once painted most of the world's reproductions, now half atelier, half gallery.",
+    "note": "Completely unlike anywhere else. Watch painters work, commission a copy of anything, walk out with it in a tube.",
+    "tags": [
+      "art",
+      "wander",
+      "unique",
+      "shopping"
+    ]
+  },
+  {
+    "id": "gankeng",
+    "name": "Gankeng Hakka Town",
+    "nameZh": "甘坑客家小镇",
+    "category": "Neighborhoods & Villages",
+    "neighborhood": "Longgang",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Restored Hakka village with traditional architecture and a small-town street layout.",
+    "note": "Prettier at night when it's lit. Touristy, but the Hakka architecture is genuine.",
+    "tags": [
+      "historic",
+      "free",
+      "night",
+      "family"
+    ]
+  },
+  {
+    "id": "zhongying-street",
+    "name": "Zhongying Street",
+    "nameZh": "中英街",
+    "category": "Neighborhoods & Villages",
+    "neighborhood": "Yantian",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "The 250-metre street where one side is Shenzhen and the other is Hong Kong.",
+    "note": "You need a permit and your passport to enter — arrange it in advance. The border stones are the point.",
+    "tags": [
+      "border",
+      "permit",
+      "unique",
+      "history"
+    ]
+  },
+  {
+    "id": "jiaochangwei",
+    "name": "Jiaochangwei",
+    "nameZh": "较场尾",
+    "category": "Neighborhoods & Villages",
+    "neighborhood": "Dapeng",
+    "priceLevel": 2,
+    "rating": null,
+    "summary": "Beach village of guesthouses next to Dapeng Fortress — Shenzhen's weekend escape.",
+    "note": "Stay overnight rather than day-tripping; the beach is average but the village at night is the draw. Book early for holidays.",
+    "tags": [
+      "beach",
+      "overnight",
+      "weekend",
+      "day-trip"
+    ]
+  },
+  {
+    "id": "dapeng-fortress",
+    "name": "Dapeng Fortress",
+    "nameZh": "大鹏所城",
+    "category": "Neighborhoods & Villages",
+    "neighborhood": "Dapeng",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Ming-dynasty military garrison town, one of the best-preserved in Guangdong.",
+    "note": "Combine with Jiaochangwei next door. Old stone lanes, city walls, and almost no traffic.",
+    "tags": [
+      "historic",
+      "free",
+      "day-trip",
+      "wander"
+    ]
+  },
+  {
+    "id": "value-factory",
+    "name": "Value Factory",
+    "nameZh": "蛇口价值工厂",
+    "category": "Neighborhoods & Villages",
+    "neighborhood": "Shekou",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "A 1980s float-glass factory converted into an exhibition and event space.",
+    "note": "Brutalist industrial shell, good for events and design shows. Check what's running before going.",
+    "tags": [
+      "architecture",
+      "art",
+      "industrial"
+    ]
+  },
+  {
+    "id": "kingkey-beer-factory",
+    "name": "Kingkey Beer Factory",
+    "nameZh": "金啤坊",
+    "category": "Neighborhoods & Villages",
+    "neighborhood": "Luohu",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Old Shenzhen brewery redeveloped into a retail and cultural block, keeping the fermenting tanks.",
+    "note": "The retained steel tanks are the photo. New enough that it's still filling out.",
+    "tags": [
+      "industrial",
+      "architecture",
+      "new"
+    ]
+  },
+  {
+    "id": "shenzhen-book-city",
+    "name": "Shenzhen Book City",
+    "nameZh": "深圳书城中心城",
+    "category": "Books & Music",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "One of the largest bookstores in China, spread over several floors.",
+    "note": "Free to browse for hours. There's an English section, thinner every year but still there.",
+    "tags": [
+      "free",
+      "books",
+      "quiet",
+      "rainy-day"
+    ]
+  },
+  {
+    "id": "zhongshuge",
+    "name": "Zhongshuge Bookstore",
+    "nameZh": "钟书阁",
+    "category": "Books & Music",
+    "neighborhood": "Nanshan Center",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "The mirrored-ceiling bookstore chain — architecture first, books second.",
+    "note": "Go for the photograph, stay if you like bookshops. Crowded on weekends.",
+    "tags": [
+      "books",
+      "photo",
+      "instagram"
+    ]
+  },
+  {
+    "id": "mi-bookstore",
+    "name": "Mi Bookstore",
+    "nameZh": "覔书店",
+    "category": "Books & Music",
+    "neighborhood": "Houhai",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Shenzhen bookstore chain with a café, events, and long opening hours.",
+    "note": "Good rainy-day option with actual seating — rarer than it should be.",
+    "tags": [
+      "books",
+      "quiet",
+      "rainy-day",
+      "cafe"
+    ]
+  },
+  {
+    "id": "wutongshan",
+    "name": "Wutong Mountain",
+    "nameZh": "梧桐山",
+    "category": "Hikes & Beaches",
+    "neighborhood": "Luohu",
+    "priceLevel": 1,
+    "rating": null,
+    "summary": "Shenzhen's highest peak at 944 m, in the hills above the east.",
+    "note": "Three to four hours up. Cloud cover swallows the summit view most days — check the forecast or don't bother.",
+    "tags": [
+      "hike",
+      "free",
+      "hard",
+      "view"
+    ]
+  },
+  {
+    "id": "tanglangshan",
+    "name": "Tanglang Mountain",
+    "nameZh": "塘朗山",
+    "category": "Hikes & Beaches",
+    "neighborhood": "Keyuan",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "City-edge hike in Nanshan with the tech district below and the bay beyond.",
+    "note": "The right hike for a weekday evening — an hour up, metro at the bottom.",
+    "tags": [
+      "hike",
+      "free",
+      "sunset",
+      "quick"
+    ]
+  },
+  {
+    "id": "maluanshan",
+    "name": "Maluan Mountain",
+    "nameZh": "马峦山",
+    "category": "Hikes & Beaches",
+    "neighborhood": "Pingshan",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Eastern hill country with waterfalls and old villages, well off the tourist path.",
+    "note": "Best after rain, when the falls are running. Long day, bring food and water.",
+    "tags": [
+      "hike",
+      "free",
+      "waterfall",
+      "day-trip"
+    ]
+  },
+  {
+    "id": "dameisha",
+    "name": "Dameisha Beach",
+    "nameZh": "大梅沙海滨公园",
+    "category": "Hikes & Beaches",
+    "neighborhood": "Yantian",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Shenzhen's main public beach — free, long, and extremely crowded on holidays.",
+    "note": "Free entry requires a booking in peak season. Go on a weekday or don't go at all.",
+    "tags": [
+      "beach",
+      "free",
+      "crowded",
+      "summer"
+    ]
+  },
+  {
+    "id": "xichong",
+    "name": "Xichong Beach",
+    "nameZh": "西涌沙滩",
+    "category": "Hikes & Beaches",
+    "neighborhood": "Dapeng",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": true,
+    "summary": "The longest and best beach on the Dapeng peninsula, with surf and a coastal trail.",
+    "note": "The 东西涌穿越 coastal hike between Xichong and Dongchong is the best walk in Shenzhen. Start early, it's exposed.",
+    "tags": [
+      "beach",
+      "hike",
+      "day-trip",
+      "surf"
+    ]
+  },
+  {
+    "id": "xiaomeisha",
+    "name": "Xiaomeisha",
+    "nameZh": "小梅沙",
+    "category": "Hikes & Beaches",
+    "neighborhood": "Yantian",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Smaller, ticketed bay next to Dameisha, redeveloped with a resort and aquarium.",
+    "note": "Calmer water than Dameisha and fewer people, but you pay for it.",
+    "tags": [
+      "beach",
+      "family",
+      "ticketed"
+    ]
+  },
+  {
+    "id": "nanao-seafood",
+    "name": "Nan'ao Seafood Street",
+    "nameZh": "南澳海鲜街",
+    "category": "Food Streets & Markets",
+    "neighborhood": "Dapeng",
+    "priceLevel": 2,
+    "rating": null,
+    "summary": "Fishing-village seafood strip on the Dapeng peninsula; sea urchin is the speciality.",
+    "note": "Pick from the tanks, agree the price per jin before it's cooked. Go for lunch and make a day of the peninsula.",
+    "tags": [
+      "seafood",
+      "day-trip",
+      "local"
+    ]
+  },
+  {
+    "id": "shekou-fisherman",
+    "name": "Shekou Fisherman's Wharf",
+    "nameZh": "蛇口渔人码头",
+    "category": "Food Streets & Markets",
+    "neighborhood": "Shekou",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Working fishing harbour and seafood market at the tip of the Shekou peninsula.",
+    "note": "Watch the boats come in early morning. The market will cook what you buy.",
+    "tags": [
+      "seafood",
+      "market",
+      "morning",
+      "waterfront"
+    ]
+  },
+  {
+    "id": "happy-valley",
+    "name": "Happy Valley Shenzhen",
+    "nameZh": "深圳欢乐谷",
+    "category": "Parks & Waterfront",
+    "neighborhood": "OCT",
+    "priceLevel": 3,
+    "rating": null,
+    "featured": false,
+    "summary": "The city's main theme park, with serious rollercoasters and a summer water park.",
+    "note": "Go on a weekday. Queue times on holidays make it not worth the ticket.",
+    "tags": [
+      "family",
+      "ticketed",
+      "summer"
+    ]
+  },
+  {
+    "id": "universe-center",
+    "name": "Uniwalk Coastal City",
+    "nameZh": "海岸城",
+    "category": "Neighborhoods & Villages",
+    "neighborhood": "Nanshan Center",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Nanshan's main mall and the pedestrian plaza around it.",
+    "note": "The outdoor plaza at night is where Nanshan actually socialises. Good density of restaurants.",
+    "tags": [
+      "shopping",
+      "mall",
+      "dinner",
+      "night"
+    ]
+  },
+  {
+    "id": "mixc-world",
+    "name": "MixC World",
+    "nameZh": "万象天地",
+    "category": "Neighborhoods & Villages",
+    "neighborhood": "Keyuan",
+    "priceLevel": 3,
+    "rating": null,
+    "featured": false,
+    "summary": "Open-air mall in Keyuan, designed as a walkable street grid rather than a box.",
+    "note": "The best-designed mall in Shenzhen — outdoor lanes, so it works as a place to walk, not just shop.",
+    "tags": [
+      "shopping",
+      "mall",
+      "design",
+      "dinner"
+    ]
+  },
+  {
+    "id": "shenzhen-bay-mixc",
+    "name": "Shenzhen Bay MixC",
+    "nameZh": "深圳湾万象城",
+    "category": "Neighborhoods & Villages",
+    "neighborhood": "Houhai",
+    "priceLevel": 4,
+    "rating": null,
+    "featured": false,
+    "summary": "The luxury mall, with the highest concentration of fine dining in the city.",
+    "note": "Come for the restaurants rather than the shops. Basement food hall is surprisingly good value.",
+    "tags": [
+      "shopping",
+      "fine-dining",
+      "mall"
+    ]
+  },
+  {
+    "id": "one-avenue",
+    "name": "One Avenue",
+    "nameZh": "壹方城",
+    "category": "Neighborhoods & Villages",
+    "neighborhood": "Bao'an",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Bao'an's enormous mall — one of the largest in the country by floor area.",
+    "note": "You will get lost. That's half the fun, and the restaurant floors go on forever.",
+    "tags": [
+      "shopping",
+      "mall",
+      "family",
+      "dinner"
+    ]
+  },
+  {
+    "id": "kk-one",
+    "name": "KK ONE",
+    "nameZh": "KK ONE",
+    "category": "Neighborhoods & Villages",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 2,
+    "rating": null,
+    "featured": false,
+    "summary": "Futian mall directly connected to the metro, heavy on food and young brands.",
+    "note": "Practical choice — you can eat without going outside, which matters June to September.",
+    "tags": [
+      "shopping",
+      "mall",
+      "dinner",
+      "rainy-day"
+    ]
+  },
+  {
+    "id": "shangxiasha",
+    "name": "Shangxiasha Village",
+    "nameZh": "上下沙",
+    "category": "Food Streets & Markets",
+    "neighborhood": "Shangxiasha",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "Urban village near the Futian border — dense lanes of cheap eats.",
+    "note": "Same play as Shuiwei: follow the crowd, eat what they're eating, spend under 50.",
+    "tags": [
+      "cheap",
+      "local",
+      "late-night",
+      "wander"
+    ]
+  },
+  {
+    "id": "yuanling",
+    "name": "Yuanling",
+    "nameZh": "园岭",
+    "category": "Neighborhoods & Villages",
+    "neighborhood": "Futian CBD",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "1980s residential grid that has quietly become a cafe and small-shop district.",
+    "note": "The most lived-in neighbourhood walk in Futian. Old banyans, small independents, no tourists.",
+    "tags": [
+      "wander",
+      "cafe",
+      "local",
+      "free"
+    ]
+  },
+  {
+    "id": "shenzhen-north-station",
+    "name": "Shenzhen North Railway Station",
+    "nameZh": "深圳北站",
+    "category": "Architecture & Views",
+    "neighborhood": "Longhua",
+    "priceLevel": 1,
+    "rating": null,
+    "featured": false,
+    "summary": "High-speed rail hub, and the practical gateway from Guangzhou and Hong Kong West Kowloon.",
+    "note": "Guangzhou is 30 minutes away, which makes a Shenzhen base genuinely useful for the whole delta.",
+    "tags": [
+      "transport",
+      "architecture",
+      "day-trip"
+    ]
+  }
+]
