@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import rawPlaces from './data/places.json';
-import { NEIGHBORHOODS, UI } from './data/meta';
+import { NEIGHBORHOODS, TAGS, UI } from './data/meta';
 import type { Place } from './types';
 import {
   indexPlaces,
@@ -10,6 +10,7 @@ import {
   validatePlaces,
   type Filters,
 } from './lib/select';
+import { parseUrl, syncUrl } from './lib/urlstate';
 import { useLang, useScrollReveal, useTheme } from './lib/hooks';
 import { Hero } from './components/Hero';
 import { Toolbar } from './components/Toolbar';
@@ -22,14 +23,19 @@ import { Footer } from './components/Footer';
 // is what actually enforces the 1–4 range.
 const PLACES = rawPlaces as unknown as Place[];
 
+// Read once at import: the address bar is the initial source of truth for
+// filters, language, theme and any #p-<id> deep link.
+const INITIAL = parseUrl();
+
 export default function App() {
   const [theme, setTheme] = useTheme();
   const [lang, setLang] = useLang();
   const t = UI[lang];
 
-  const [query, setQuery] = useState('');
-  const [category, setCategory] = useState<string | null>(null);
-  const [neighborhood, setNeighborhood] = useState<string | null>(null);
+  const [query, setQuery] = useState(INITIAL.filters.q);
+  const [category, setCategory] = useState<string | null>(INITIAL.filters.category);
+  const [neighborhood, setNeighborhood] = useState<string | null>(INITIAL.filters.neighborhood);
+  const [tag, setTag] = useState<string | null>(INITIAL.filters.tag);
 
   const index = useMemo(() => indexPlaces(PLACES), []);
 
@@ -40,6 +46,32 @@ export default function App() {
     if (problems.length > 0) {
       console.warn(`[places.json] ${problems.length} problem(s):\n- ${problems.join('\n- ')}`);
     }
+  }, []);
+
+  // A shared link's ?l= / ?t= override the visitor's stored preference.
+  useEffect(() => {
+    if (INITIAL.theme) setTheme(INITIAL.theme);
+    if (INITIAL.lang) setLang(INITIAL.lang);
+  }, [setTheme, setLang]);
+
+  // Keep the address bar describing the view so any copied URL reproduces it.
+  useEffect(() => {
+    syncUrl({ q: query, category, neighborhood, tag }, lang, theme);
+  }, [query, category, neighborhood, tag, lang, theme]);
+
+  // Honour a #p-<id> deep link: reveal, centre and flash the target card.
+  useEffect(() => {
+    if (!INITIAL.placeId) return;
+    const raf = requestAnimationFrame(() => {
+      const el = document.getElementById(`p-${INITIAL.placeId}`);
+      if (!el) return;
+      el.classList.add('is-visible');
+      el.closest('.cat-section')?.classList.add('is-visible');
+      el.scrollIntoView({ block: 'center', behavior: 'auto' });
+      el.classList.add('card-flash');
+      window.setTimeout(() => el.classList.remove('card-flash'), 2400);
+    });
+    return () => cancelAnimationFrame(raf);
   }, []);
 
   const allCats = useMemo(
@@ -60,7 +92,7 @@ export default function App() {
    *  while you're reading them. */
   const catCounts = useMemo(() => {
     const m = new Map<string, number>();
-    const qOnly: Filters = { q: query, category: null, neighborhood: null };
+    const qOnly: Filters = { q: query, category: null, neighborhood: null, tag: null };
     for (const it of index) {
       if (matches(it, qOnly)) m.set(it.place.category, (m.get(it.place.category) ?? 0) + 1);
     }
@@ -69,19 +101,19 @@ export default function App() {
 
   const hoodCounts = useMemo(() => {
     const m = new Map<string, number>();
-    const qOnly: Filters = { q: query, category: null, neighborhood: null };
+    const qOnly: Filters = { q: query, category: null, neighborhood: null, tag: null };
     for (const it of index) {
       if (matches(it, qOnly)) m.set(it.place.neighborhood, (m.get(it.place.neighborhood) ?? 0) + 1);
     }
     return m;
   }, [index, query]);
 
-  const filters: Filters = { q: query, category, neighborhood };
+  const filters: Filters = { q: query, category, neighborhood, tag };
 
   const filtered = useMemo(
     () => sortItems(index.filter((it) => matches(it, filters))),
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [index, query, category, neighborhood],
+    [index, query, category, neighborhood, tag],
   );
 
   const picks = useMemo(
@@ -101,15 +133,19 @@ export default function App() {
       .map((c) => [c, byCat.get(c)!] as const);
   }, [filtered, allCats]);
 
-  useScrollReveal([query, category, neighborhood, grouped.length]);
+  useScrollReveal([query, category, neighborhood, tag, grouped.length]);
 
-  const filtersActive = query.trim() !== '' || category !== null || neighborhood !== null;
+  const filtersActive =
+    query.trim() !== '' || category !== null || neighborhood !== null || tag !== null;
 
   const clearAll = () => {
     setQuery('');
     setCategory(null);
     setNeighborhood(null);
+    setTag(null);
   };
+
+  const toggleTag = (next: string) => setTag((cur) => (cur === next ? null : next));
 
   return (
     <div className="shell" id="top">
@@ -151,11 +187,14 @@ export default function App() {
         {filtersActive && (
           <div className="result-bar">
             <span className="mono">{t.resultCount(filtered.length)}</span>
-            {filtersActive && (
-              <button type="button" className="result-clear" onClick={clearAll}>
-                {t.clearFilters}
+            {tag && (
+              <button type="button" className="result-tag" onClick={() => setTag(null)}>
+                {lang === 'zh' ? (TAGS[tag]?.zh ?? tag) : (TAGS[tag]?.en ?? tag)} ×
               </button>
             )}
+            <button type="button" className="result-clear" onClick={clearAll}>
+              {t.clearFilters}
+            </button>
           </div>
         )}
 
@@ -166,6 +205,8 @@ export default function App() {
               category={cat}
               places={places}
               lang={lang}
+              onTag={toggleTag}
+              activeTag={tag}
               style={{ transitionDelay: `${Math.min(i, 6) * 0.04}s` }}
             />
           ))

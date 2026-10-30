@@ -931,12 +931,106 @@ button {
   border: 1px solid var(--border);
   border-radius: 100px;
   padding: 2px 8px;
+  cursor: pointer;
+  transition: color 0.18s, background 0.18s, border-color 0.18s;
+}
+
+.tag:hover {
+  color: var(--accent-ink);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.tag[aria-pressed='true'] {
+  color: var(--accent-ink);
+  background: var(--accent);
+  border-color: var(--accent);
 }
 
 [data-theme='tech'] .tag {
   color: var(--accent);
   background: var(--accent-soft);
   border-color: rgba(45, 226, 230, 0.18);
+}
+
+[data-theme='tech'] .tag:hover,
+[data-theme='tech'] .tag[aria-pressed='true'] {
+  color: var(--accent-ink);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.card-badges {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.permalink {
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  border: var(--hairline);
+  border-radius: var(--radius);
+  color: var(--ink-4);
+  opacity: 0.55;
+  transition: opacity 0.2s, color 0.2s, border-color 0.2s, background 0.2s;
+}
+
+.card:hover .permalink,
+.permalink:focus-visible,
+.permalink.is-copied {
+  opacity: 1;
+}
+
+.permalink:hover {
+  color: var(--accent);
+  border-color: var(--border-strong);
+}
+
+.permalink.is-copied {
+  color: var(--accent-ink);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+/* Deep-link target: a ring that fades so the eye lands on the right card. */
+.card-flash {
+  animation: cardFlash 2.4s var(--ease-out) 1;
+}
+
+@keyframes cardFlash {
+  0%,
+  55% {
+    box-shadow: 0 0 0 3px var(--accent), var(--shadow-lg);
+    border-color: var(--accent);
+  }
+  100% {
+    box-shadow: var(--shadow-sm);
+  }
+}
+
+.result-tag {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-ink);
+  background: var(--accent);
+  border-radius: 100px;
+  padding: 3px 11px;
+  transition: opacity 0.18s;
+}
+
+.result-tag:hover {
+  opacity: 0.82;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .card-foot {

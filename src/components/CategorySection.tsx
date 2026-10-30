@@ -9,9 +9,18 @@ interface CategorySectionProps {
   places: Place[];
   lang: Lang;
   style?: CSSProperties;
+  onTag: (tag: string) => void;
+  activeTag: string | null;
 }
 
-export function CategorySection({ category, places, lang, style }: CategorySectionProps) {
+export function CategorySection({
+  category,
+  places,
+  lang,
+  style,
+  onTag,
+  activeTag,
+}: CategorySectionProps) {
   const meta = CATEGORIES[category];
   const title = lang === 'zh' ? (meta?.zh ?? category) : (meta?.en ?? category);
   const sub = lang === 'zh' ? (meta?.en ?? '') : (meta?.zh ?? '');
@@ -31,7 +40,7 @@ export function CategorySection({ category, places, lang, style }: CategorySecti
 
       <div className="grid">
         {places.map((p) => (
-          <PlaceCard key={p.id} place={p} lang={lang} />
+          <PlaceCard key={p.id} place={p} lang={lang} onTag={onTag} activeTag={activeTag} />
         ))}
       </div>
     </section>

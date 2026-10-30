@@ -32,6 +32,7 @@ export const PATHS = {
   left: 'M15 5l-7 7 7 7',
   right: 'M9 5l7 7-7 7',
   pin: 'M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11ZM12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z',
+  link: 'M10 14a4 4 0 0 0 6 .5l3-3a4 4 0 0 0-5.7-5.7l-1.5 1.5M14 10a4 4 0 0 0-6-.5l-3 3a4 4 0 0 0 5.7 5.7l1.5-1.5',
 } as const;
 
 /** Filled star for the rating readout. */

@@ -40,12 +40,15 @@ export interface Filters {
   q: string;
   category: string | null;
   neighborhood: string | null;
+  /** Tag slug, e.g. "late-night". Set by clicking a tag pill on a card. */
+  tag: string | null;
 }
 
 /** Every whitespace-separated token must appear somewhere in the haystack. */
 export function matches(item: Indexed, filters: Filters): boolean {
   if (filters.category && item.place.category !== filters.category) return false;
   if (filters.neighborhood && item.place.neighborhood !== filters.neighborhood) return false;
+  if (filters.tag && !(item.place.tags ?? []).includes(filters.tag)) return false;
 
   const tokens = filters.q.trim().toLowerCase().split(/\s+/).filter(Boolean);
   if (tokens.length === 0) return true;
